@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_40dp"
+    android:background="@android:color/white"
+    tools:context=".SignInActivity">
+    
+    <ImageView
+        android:id="@+id/id_signin"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:src="@drawable/foto2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40dp"
+        android:contentDescription="@string/txt_image" />
+    <EditText
+        android:id="@+id/et_email_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_email"
+        android:layout_below="@id/id_signin"
+        android:layout_marginTop="@dimen/_40dp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="@dimen/_16dp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/et_password_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_email_signin"
+        android:hint="@string/txt_pwd"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="@dimen/_16dp"
+        android:autofillHints="" />
+<Button
+    android:id="@+id/btn_signin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/et_password_signin"
+    android:layout_marginTop="@dimen/_40dp"
+    android:text="@string/txt_mlebu"
+    android:textAllCaps="false"
+    android:background="@drawable/circle_button"
+    android:textColor="@android:color/white"
+    android:layout_marginStart="@dimen/_16dp"
+    android:layout_marginEnd="@dimen/_16dp"
+/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_account"
+    android:id="@+id/id_account"
+    android:layout_below="@id/btn_signin"
+    android:layout_marginTop="@dimen/_16dp"
+   android:layout_marginStart="@dimen/_70dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/txt_buat"
+    android:textStyle="bold"
+    android:layout_toEndOf="@id/id_account"
+    android:layout_below="@id/btn_signin"
+    android:layout_marginStart="@dimen/_4dp"
+    android:layout_marginTop="@dimen/_16dp"
+    android:id="@+id/id_create"/>
+
+</RelativeLayout>

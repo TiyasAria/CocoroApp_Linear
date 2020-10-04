@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="@dimen/_40dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/batuk"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_250dp"
+        android:src="@drawable/batuk"
+       android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_60dp"
+        android:contentDescription= "@string/ini_gambar" />
+    <TextView
+        android:id="@+id/first_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_corona"
+        android:layout_marginTop="@dimen/_40dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_20sp"
+        android:layout_marginStart="@dimen/_16dp"/>
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_penjelasan"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginStart="@dimen/_16dp"
+        />
+
+
+</LinearLayout>

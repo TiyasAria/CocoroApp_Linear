@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cocoro App</string>
+    <string name="txt_aware">Be aware \nFrom covid 19</string>
+    <string name="txt_keep">Keep yourself home quarantine</string>
+    <string name="txt_image">image_view</string>
+    <string name="txt_email">email</string>
+    <string name="txt_pwd">password</string>
+    <string name="txt_mlebu">sign in</string>
+    <string name="txt_account">Don\'t have an account?</string>
+    <string name="txt_buat">create</string>
+    <string name="txt_akun">Create \nAccount</string>
+    <string name="txt_cocoro">Let’s start to make cocoro account</string>
+    <string name="txt_user">Username</string>
+    <string name="txt_email_daftar">Email</string>
+    <string name="txt_pwdSignup">Password</string>
+    <string name="txt_confirm">Confirm Password</string>
+    <string name="txt_daftar">Register</string>
+    <string name="txt_corona">Am I Infected with coronavirus ?</string>
+    <string name="txt_penjelasan">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem</string>
+    <string name="ini_gambar">gambar</string>
+    <string name="txt_skip">skip</string>
+    <string name="txt_mulai">start</string>
+    <string name="txt_next">Next</string>
+</resources>
